@@ -69,7 +69,7 @@ This project was primarily an exercise in learning:
 /meow-bot-meow
 → Meow! Meow! Meow!
 
-/catfact
+/meow-bot-catfact
 → Cats have over 20 muscles that control their ears.
 ```
 
