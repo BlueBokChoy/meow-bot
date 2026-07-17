@@ -43,7 +43,6 @@ https://hackclub.enterprise.slack.com/archives/C0BHYS07GSF
 ## Tech Stack
 
 - JavaScript
-- NestJS
 - Slack API
 - Hosted server
 
@@ -76,7 +75,7 @@ This project was primarily an exercise in learning:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Add more cat commands
 - Support cat images
@@ -86,6 +85,8 @@ This project was primarily an exercise in learning:
 
 ---
 
-## 📄 License
+## License and Credits
+
+This project was done with guidance from HackClub Stardance.
 
 This project is licensed under the MIT License.
