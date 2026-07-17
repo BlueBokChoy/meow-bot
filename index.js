@@ -22,8 +22,25 @@ app.command("/meow-bot-help", async ({ ack, respond }) => {
     text:
 `Available Commands:
 /meow-bot-ping - Check bot latency
+/meow-bot-meow - The bot will meow for you
 /meow-bot-catfact - Get a cat fact`
   });
+});
+
+app.command("/meow-bot-meow", async ({ command, ack, respond }) => {
+  await ack();
+  await respond({ text: `Meow! Meow! Meow!` });
+});
+
+app.command("/meow-bot-catfact", async ({ ack, respond }) => {
+  await ack();
+
+  try {
+    const response = await axios.get("https://catfact.ninja/fact");
+    await respond({ text: `Cat Fact:\n${response.data.fact}` });
+  } catch (err) {
+    await respond({ text: "Failed to fetch a cat fact." });
+  }
 });
 
 app.command("/meow-bot-catfact", async ({ ack, respond }) => {
