@@ -4,7 +4,7 @@ A simple Slack bot that meows on command and shares random cat facts.
 
 > **Try it:** If you're a member of the Hack Club Slack workspace, you can interact with Meow-bot here:
 >
-> https://hackclub.enterprise.slack.com/archives/C0BHYS07GSF
+> [https://hackclub.enterprise.slack.com/archives/C0BHYS07GSF](https://app.slack.com/client/E09V59WQY1E/C0BHYS07GSF)
 
 ---
 
